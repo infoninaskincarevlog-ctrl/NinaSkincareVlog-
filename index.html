@@ -5,78 +5,52 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>NINA / SKINCARE VLOG</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Inter',sans-serif;background:#fdfcf8;color:#1e3a2f}
 .serif{font-family:'DM Serif Display',serif}
-header{padding:22px 20px;background:#fdfcf8;position:sticky;top:0;border-bottom:1px solid #eee}
-.logo{font-weight:700;font-size:14px}
-nav{display:flex;gap:18px;margin-top:12px;font-size:14px;overflow-x:auto}
-nav a{text-decoration:none;color:#1e3a2f}
-.hero{background:#eef2eb;padding:40px 20px 0}
-.label{font-size:11px;letter-spacing:2px;color:#b07a68;text-transform:uppercase;margin-bottom:12px}
-h1{font-size:32px;line-height:1.15;max-width:340px;margin-bottom:16px}
-.btn-dark{display:inline-block;margin-top:22px;background:#1b3329;color:white;padding:14px 26px;border-radius:30px;text-decoration:none}
-.hero-img{margin-top:28px;width:100%;height:380px;object-fit:cover;border-radius:18px;display:block}
-.section{padding:40px 20px}.beige{background:#fdfaf3}.sage{background:#eef2eb}
-.card{background:white;border:1px solid #e8e2d9;border-radius:18px;padding:20px;margin-bottom:14px}
-.featured{background:#1b3329;color:white;border-radius:22px;padding:28px 22px}
-.watch-link{display:inline-block;margin-top:24px;color:white;font-size:20px;text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.3)}
-.contact-card{background:white;border-radius:18px;border:1px solid #e8e2d9;padding:18px 20px;margin-bottom:14px}
-footer{background:#1b3329;color:#cbd8d0;padding:28px 20px;font-size:12px}
+header{padding:22px 20px;display:flex;justify-content:space-between}
+.logo{font-weight:700;font-size:14px;letter-spacing:1px}
+nav a{text-decoration:none;color:#1e3a2f;margin-left:16px;font-size:13px}
+.hero{background:#eef2eb;padding:50px 24px}
+.label{font-size:11px;letter-spacing:2px;color:#b07a5a;margin-bottom:12px}
+h1{font-size:38px;line-height:1.1;max-width:320px;margin-bottom:14px}
+.hero p{font-size:14px;color:#4a5a52;max-width:300px;line-height:1.6}
+.btn-dark{display:inline-block;margin-top:24px;background:#1b3329;color:white;padding:14px 26px;border-radius:30px;text-decoration:none;font-size:13px}
+.hero-img{margin-top:28px;width:100%;height:420px;object-fit:cover;border-radius:18px;display:block}
+.section{padding:50px 24px}.beige{background:#fdf5ef}
+.card{background:white;border:1px solid #e8e2d9;border-radius:14px;padding:20px;margin-bottom:14px}
+.featured{background:#1b3329;color:white;border-radius:16px;padding:30px 24px}
+.watch-link{display:inline-block;margin-top:20px;background:white;color:#1b3329;padding:12px 22px;border-radius:30px;text-decoration:none;font-size:13px;font-weight:600}
+footer{background:#1b3329;color:#cbd8d0;padding:40px 24px;margin-top:40px;font-size:13px}
 </style>
 </head>
 <body>
 <header>
-<div class="logo">NINA / SKINCARE VLOG</div>
-<nav><a href="#skin">Skin Types</a><a href="#concerns">Concerns</a><a href="#vlogs">Vlogs</a><a href="#about">About</a><a href="#contact">Reach Me</a></nav>
+<div class="logo serif">NINA / SKINCARE VLOG</div>
+<nav><a href="#">Shop</a><a href="#">About</a></nav>
 </header>
 <div class="hero">
-<div class="label">A Considered Approach To Your Routine</div>
-<h1 class="serif">Skincare recommendations for every skin type — oily, dry, combination, sensitive & normal.</h1>
-<p>Find your starting point, explore common skin concerns, and follow along as Nina shares new vlogs.</p>
-<a href="#skin" class="btn-dark">Explore by skin type ↓</a>
-<img class="hero-img" src="https://images.unsplash.com/photo-1596434300655-e48d3ff3dd5e?w=600&auto=format&fit=crop">
+<div class="label">SKINCARE ESSENTIALS</div>
+<h1 class="serif">Healthy, smooth, radiant skin.</h1>
+<p>We recommend carefully selected skincare products suitable for all skin types — oily, dry, combination, sensitive, and normal.</p>
+<a class="btn-dark" href="#">Shop by skin type →</a>
+<img class="hero-img" src="nina.jpg" alt="Caramel skin lady with Afro applying cream">
 </div>
-<div id="skin" class="section beige">
-<div class="label">01 / Find Your Fit</div>
-<h2 class="serif">Shop by Skin Type</h2>
-<div class="card"><h3>Oily Skin</h3><small>Recommendations coming soon.</small></div>
-<div class="card"><h3>Dry Skin</h3><small>Recommendations coming soon.</small></div>
-<div class="card"><h3>Combination Skin</h3><small>Recommendations coming soon.</small></div>
-<div class="card"><h3>Sensitive Skin</h3><small>Recommendations coming soon.</small></div>
-<div class="card"><h3>Normal Skin</h3><small>Recommendations coming soon.</small></div>
+<div class="section beige">
+<h2 class="serif" style="font-size:28px;margin-bottom:24px;">Shop by skin concern</h2>
+<div class="card"><b>Acne & Breakouts</b><br><small>Gentle cleansers & treatments</small></div>
+<div class="card"><b>Dark Spots</b><br><small>Brightening serums</small></div>
+<div class="card"><b>Dryness</b><br><small>Hydrating moisturizers</small></div>
 </div>
-<div id="concerns" class="section sage">
-<div class="label">02 / What's On Your Mind?</div>
-<h2 class="serif">Shop by Concern</h2>
-<div class="card"><h3>Acne & Pimples</h3><small>Recommendations coming soon.</small></div>
-<div class="card"><h3>Dark Spots & Hyperpigmentation</h3><small>Recommendations coming soon.</small></div>
-<div class="card"><h3>Uneven Skin Tone</h3><small>Recommendations coming soon.</small></div>
-<div class="card"><h3>Glowing & Hydration</h3><small>Recommendations coming soon.</small></div>
-<div class="card"><h3>Anti-Aging</h3><small>Recommendations coming soon.</small></div>
-</div>
-<div id="vlogs" class="section beige">
-<div class="label">03 / Watch & Discover</div>
-<h2 class="serif">From the vlog</h2>
+<div class="section">
 <div class="featured">
-<div style="color:#cbbcb3;letter-spacing:2px;font-size:10px">FEATURED / LATEST VLOG</div>
-<h3 class="serif" style="margin:20px 0">Nina vlog - Skincare recommendations for oily Skin</h3>
-<p style="font-size:14px;color:#cbd8d0">Discover skincare products that help cleanse, hydrate, brighten and improve your skin.</p>
+<div class="label" style="color:#d8bba7;">FEATURED VIDEO</div>
+<h2 class="serif" style="font-size:30px;margin-top:10px;">My Nighttime Skincare Routine for Glowing Skin</h2>
+<p style="margin-top:12px;color:#cbd8d0;font-size:14px;">Watch how I get smooth, radiant skin every night.</p>
 <a class="watch-link" href="https://vt.tiktok.com/ZSp66Jw77/" target="_blank">Watch video →</a>
 </div>
 </div>
-<div id="about" class="section" style="background:#f5ece0;">
-<div class="label">04 / A Little Introduction</div>
-<h2 class="serif">Welcome to Nina Skincare Vlog</h2>
-<p>At Nina Skincare Vlog, we recommend carefully selected skincare products suitable for all skin types.</p>
-</div>
-<div id="contact" class="section beige">
-<div class="label">05 / Stay In Touch</div>
-<h2 class="serif">Reach Me / Contact</h2>
-<div class="contact-card"><strong>Email</strong><br><a href="mailto:info.ninaskincarevloge@gmail.com">info.ninaskincarevloge@gmail.com</a></div>
-<div class="contact-card"><strong>Social & vlog links</strong><br><a href="https://vt.tiktok.com/ZSp66Jw77/" target="_blank">www.tiktok.com/@nina.skincare</a></div>
-</div>
-<footer><strong>Nina Skincare Vlog</strong><br>Skincare recommendations are informational, not medical advice.</footer>
+<footer>© 2026 Nina Skincare Vlog - For healthy, glowing skin</footer>
 </body>
 </html>
